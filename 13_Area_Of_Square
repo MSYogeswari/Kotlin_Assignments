@@ -1,0 +1,7 @@
+fun main()
+{
+    var x : Int
+    print("Enter any value")
+    x = Integer.valueOf(readLine())
+    println("Area of the Square: ${x*x}")
+}
