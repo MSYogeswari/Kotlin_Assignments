@@ -1,0 +1,16 @@
+fun main()
+{
+    var c : Char
+    print("Enter character")
+    c = readLine()!!.single()
+    c = c.uppercaseChar()
+    for(i in c.code downTo 65)
+    {
+        for(j in c.code downTo 65)
+    {
+        print(c)
+    }
+    c--
+    println()
+    }
+}
