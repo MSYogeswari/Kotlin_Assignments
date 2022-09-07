@@ -1,0 +1,16 @@
+fun main()
+{
+    var num : Int
+    print("Enter Number")
+    num = Integer.valueOf(readLine())
+    var mod : Int
+    var rev : Int = 0
+    var temp = num
+    while(num>0)
+    {
+        mod = num%10
+        rev = (rev * 10)+mod
+        num = num /10
+    }
+    print("$temp + $rev = ${temp+rev}")
+}
