@@ -1,0 +1,10 @@
+fun main()
+{
+    var l : Int
+    var b : Int
+    print("Enter length")
+    l = Integer.valueOf(readLine())
+    print("Enter breadth")
+    b = Integer.valueOf(readLine())
+    println("Area of the Rectangle: ${l*b}")
+}
