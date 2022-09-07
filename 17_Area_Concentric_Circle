@@ -1,0 +1,16 @@
+import kotlin.math.roundToInt
+import java.text.DecimalFormat
+fun main()
+{
+    var r1 : Double
+    var r2 : Double
+    val PI : Double = 3.14
+    var area : String
+    val df = DecimalFormat("0.00")
+    print("Enter first circle radius")
+    r1 = readLine()!!.toDouble()
+    print("Enter second circle radius")
+    r2 = readLine()!!.toDouble()
+    area = df.format((PI *((r1*r1)-(r2*r2))))
+    println("Area of concentric circle : $area")
+}
