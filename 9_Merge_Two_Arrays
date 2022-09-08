@@ -1,0 +1,23 @@
+import kotlin.math.roundToInt
+import java.text.DecimalFormat
+fun main()
+{
+    print("Enter array1 elements")
+    var a1 = Array<Int>(3){0}
+    for(i in 0..(a1.size-1))
+        {
+        a1[i] = readLine()!!.toInt()
+}
+print("Enter array2 elements")
+    var a2 = Array<Int>(3){0}
+    for(i in 0..(a2.size-1))
+        {
+        a2[i] = readLine()!!.toInt()
+}
+var a3 = a1+a2
+var a4 = a1.plus(a2)
+    for(x in a3)
+        print(x)
+    for(x in a4)
+        print(x)
+}
